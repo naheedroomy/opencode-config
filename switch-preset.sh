@@ -21,4 +21,10 @@ fi
 sed -i '' "s/\"preset\": \".*\"/\"preset\": \"$PRESET\"/" "$CONFIG"
 
 echo "Switched to preset: $PRESET"
-echo "Restart OpenCode to apply."
+echo ""
+echo "To apply:"
+echo "  New session:       opencode"
+echo "  Resume with fork:  opencode -s <session_id> --fork"
+echo ""
+echo "Note: plain 'opencode -s <session_id>' will NOT pick up the new preset."
+echo "      Use --fork to get fresh config on an existing session's history."

@@ -20,5 +20,17 @@
       "disable": true
     }
   },
+  "tools": {
+    "websearch": true,
+    "codesearch": true
+  },
+  "permission": {
+    "websearch": "allow",
+    "codesearch": "allow"
+  },
+  "share": "disabled",
+  "experimental": {
+    "openTelemetry": false
+  },
   "lsp": true
 }

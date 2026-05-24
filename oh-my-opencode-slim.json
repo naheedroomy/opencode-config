@@ -35,7 +35,7 @@
       },
 
       "explorer": {
-        "model": "opencode-go/qwen-3.6-plus",
+        "model": "opencode-go/qwen3.6-plus",
         "variant": "medium",
         "skills": [],
         "mcps": []
@@ -93,14 +93,14 @@
       },
 
       "explorer": {
-        "model": "opencode-go/qwen-3.6-plus",
+        "model": "opencode-go/qwen3.6-plus",
         "variant": "medium",
         "skills": [],
         "mcps": []
       },
 
       "designer": {
-        "model": "opencode-go/qwen-3.6-plus",
+        "model": "opencode-go/qwen3.6-plus",
         "variant": "high",
         "skills": [],
         "mcps": []
